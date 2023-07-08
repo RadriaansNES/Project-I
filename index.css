@@ -158,6 +158,11 @@ products .text {
   color: lightblue;
 }
 
+#prod .slideshow-container img{
+  width: 700px;
+  height: 500px;
+}
+
 /* aboooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooout */
 
 about#about{
@@ -352,6 +357,16 @@ slideshow
   #prod h2{
     margin-top: 30px;
   }
+
+  #prod .slideshow-container img{
+    width: 500px;
+    height: 300px;
+  }
+
+  about h2 {
+    margin-top: 30px;
+  }
+
 }
 
 
