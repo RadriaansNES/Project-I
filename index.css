@@ -93,6 +93,7 @@ land .wstate {
   max-height: 605px;
   max-width: 500px;
   line-break: normal;
+  text-align: center;
 }
 
 /* serviccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccce */ 
@@ -130,6 +131,7 @@ services .sblock .s1, services .sblock .s2, services .sblock .s3{
   width: auto;
   height: auto;
   padding: 30px;
+  text-align: center;
 }
 
 /* Produuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuucts */
@@ -345,11 +347,6 @@ slideshow
   products {
     margin-top: 50px;
     height: 600px;
-  }
-
-  element.style {
-    width: 500px;
-    height: 500px;
   }
 }
 
