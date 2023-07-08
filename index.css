@@ -79,6 +79,7 @@ land {
 
 land .logo {
   display:flex;
+  justify-content: center;
   width: 500px;
   object-fit: fill;
 }
@@ -303,4 +304,39 @@ slideshow
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+/* TABLEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEETO */
+
+@media only screen and (min-device-width: 768px){
+
+header {
+padding: 10px;
+}  
+
+nav a {
+  font-size: 24px;
+}
+
+.wstate h4 {
+  font-size: 16px;
+}
+
+land {
+  top: 35px;
+}
+
+.land .logo {
+  margin-left: 100px;
+}
+
+
+
+}
+
+
+/* IPHONNNNNNNNNEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE */
+
+@media only screen and (min-device-width: 480px){
+
 }
