@@ -308,26 +308,54 @@ slideshow
 
 /* TABLEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEETO */
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1250px){
+@media only screen and (min-device-width: 768px) and (max-width: 1250px) {
 
-header {
-padding: 10px;
-}  
+  header {
+  padding: 10px;
+  }  
 
-nav a {
-  font-size: 24px;
-}
+  nav a {
+    font-size: 24px;
+  }
 
-#land .wstate h4 {
-  font-size: 16px;
-  padding: 30px;
-}
+  #land .wstate h4 {
+    font-size: 16px;
+    padding: 30px;
+  }
 
+  land {
+    top: 30px;
+    height: 625px;
+  }
+
+  services {
+    margin-top: -10px;
+  }
+
+  services .sblock {
+    width: 700px;
+  }
+
+  .sblock h4 {
+    font-size: 15px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  products {
+    margin-top: 50px;
+    height: 600px;
+  }
+
+  element.style {
+    width: 500px;
+    height: 500px;
+  }
 }
 
 
 /* IPHONNNNNNNNNEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE */
 
-@media only screen and (min-device-width: 480px){
+@media only screen and (min-device-width: 480px) and (max-width: 767px;){
 
 }
