@@ -413,7 +413,7 @@ slideshow
 
   land {
     top: 30px;
-    height: 555px;
+    height: 500px;
   }
 
   services {
@@ -424,10 +424,28 @@ slideshow
     width: 400px;
   }
 
+  .sblock .s1 img, .sblock .s2 img, .sblock .s3 img{
+    height: 200px;
+    min-width: 200px;
+  }
+
+  services .sblock .s1, services .sblock .s2, services .sblock .s3{
+    height: 200px;
+  }
+
   .sblock h4 {
-    font-size: 15px;
-    padding: 30px;
+    font-size: 12px;
+    padding: 10px;
     text-align: center;
+    max-height: 200px;
+  }
+
+  .sblock .s2 h4{
+    padding-right: 3px;
+  }
+
+  services .sblock .s3 {
+    width: 400px;
   }
 
   products {
@@ -440,8 +458,8 @@ slideshow
   }
 
   #prod .slideshow-container img{
-    width: 500px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
   }
 
   about h2 {
@@ -449,8 +467,8 @@ slideshow
   }
 
   colwrap .row img {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
   }
 
 }
