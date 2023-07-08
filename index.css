@@ -88,11 +88,11 @@ land .wstate {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 24px;
   width: 500px;
   max-height: 605px;
   max-width: 500px;
-  line-break: anywhere;
+  line-break: normal;
 }
 
 /* serviccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccce */ 
@@ -308,7 +308,7 @@ slideshow
 
 /* TABLEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEETO */
 
-@media only screen and (min-device-width: 768px){
+@media only screen and (min-device-width: 768px) and (max-device-width: 1250px){
 
 header {
 padding: 10px;
@@ -318,19 +318,10 @@ nav a {
   font-size: 24px;
 }
 
-.wstate h4 {
+#land .wstate h4 {
   font-size: 16px;
+  padding: 30px;
 }
-
-land {
-  top: 35px;
-}
-
-.land .logo {
-  margin-left: 100px;
-}
-
-
 
 }
 
