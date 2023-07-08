@@ -348,6 +348,10 @@ slideshow
     margin-top: 50px;
     height: 600px;
   }
+
+  #prod h2{
+    margin-top: 30px;
+  }
 }
 
 
