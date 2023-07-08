@@ -382,6 +382,70 @@ slideshow
 
 /* IPHONNNNNNNNNEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE */
 
-@media only screen and (min-device-width: 480px) and (max-width: 767px;){
+@media only screen and (min-device-width: 480px) and (max-width: 767px){
+
+  title {
+    font-size: 24px;
+    margin-top: 5px;
+  }
+
+  header {
+    padding: 0 0 0 0;
+  }  
+  
+  nav {
+    margin-top: -10px;
+  }
+  
+  nav a {
+    font-size: 16px;
+  }
+
+  #land .wstate h4 {
+    font-size: 14px;
+    padding: 30px;
+  }
+
+  land {
+    top: 30px;
+    height: 555px;
+  }
+
+  services {
+    margin-top: -10px;
+  }
+
+  services .sblock {
+    width: 400px;
+  }
+
+  .sblock h4 {
+    font-size: 15px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  products {
+    margin-top: 50px;
+    height: 600px;
+  }
+
+  #prod h2{
+    margin-top: 30px;
+  }
+
+  #prod .slideshow-container img{
+    width: 500px;
+    height: 300px;
+  }
+
+  about h2 {
+    margin-top: 30px;
+  }
+
+  colwrap .row img {
+    height: 300px;
+    width: 300px;
+  }
 
 }
