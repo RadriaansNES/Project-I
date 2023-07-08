@@ -203,6 +203,11 @@ about .class .row .r1{
 }
 
 .row img {
+  height: 500px;
+  width: 500px;
+}
+
+.row img {
   border-radius: 50%;
 }
 
@@ -365,6 +370,11 @@ slideshow
 
   about h2 {
     margin-top: 30px;
+  }
+
+  colwrap .row img {
+    height: 300px;
+    width: 300px;
   }
 
 }
