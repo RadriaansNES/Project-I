@@ -389,8 +389,8 @@ slideshow
 
 @media only screen and (min-device-width: 10px) and (max-width: 767px){
   title {
-    font-size: 15px;
-    margin-top: 10px;
+    font-size: 25px;
+    margin-top: 3px;
     padding-left: 10px;
   }
 
@@ -400,6 +400,7 @@ slideshow
   
   nav {
     margin-top: -15px;
+    margin-right: 10px;
   }
   
   navc {
@@ -441,7 +442,7 @@ slideshow
   }
 
   .sblock h4 {
-    font-size: 6px;
+    font-size: 8px;
     padding: 3px;
     text-align: center;
     max-height: 125px;
