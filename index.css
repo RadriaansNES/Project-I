@@ -389,7 +389,7 @@ slideshow
 
 @media only screen and (min-device-width: 350px) and (max-width: 767px){
   title {
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 5px;
   }
 
@@ -398,21 +398,25 @@ slideshow
   }  
   
   nav {
-    margin-top: -10px;
+    margin-top: -15px;
   }
   
+  navc {
+    margin-right: 10px;
+  }
+
   nav a {
-    font-size: 16px;
+    font-size: 10px;
   }
 
   #land .wstate h4 {
-    font-size: 14px;
+    font-size: 10px;
     padding: 30px;
   }
 
   land {
     top: 30px;
-    height: 500px;
+    height: 400px;
   }
 
   services {
@@ -420,23 +424,25 @@ slideshow
   }
 
   services .sblock {
-    width: 400px;
+    width: 300px;
   }
 
   .sblock .s1 img, .sblock .s2 img, .sblock .s3 img{
-    height: 200px;
-    min-width: 200px;
+    height: 150px;
+    min-width: 150px;
+    max-height: 150px;
+    max-width: 150px;
   }
 
   services .sblock .s1, services .sblock .s2, services .sblock .s3{
-    height: 200px;
+    height: 150px;
   }
 
   .sblock h4 {
-    font-size: 12px;
-    padding: 10px;
+    font-size: 10px;
+    padding: 3px;
     text-align: center;
-    max-height: 200px;
+    max-height: 150px;
   }
 
   .sblock .s2 h4{
@@ -447,9 +453,16 @@ slideshow
     width: 400px;
   }
 
+  services .sblock .s3 h4 {
+    width: 120px;
+    padding: 3px;
+    margin-left: 10px;
+    text-align: center;
+  }
+
   products {
     margin-top: 50px;
-    height: 600px;
+    height: 400px;
   }
 
   #prod h2{
@@ -457,8 +470,8 @@ slideshow
   }
 
   #prod .slideshow-container img{
-    width: 400px;
-    height: 400px;
+    width: 250px;
+    height: 250px;
   }
 
   about h2 {
@@ -466,7 +479,7 @@ slideshow
   }
 
   colwrap .row img {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
   }
 }
