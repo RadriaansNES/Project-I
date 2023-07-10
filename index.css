@@ -394,7 +394,7 @@ slideshow
   }
 
   #prod {
-    scroll-margin-top: 300px;
+    scroll-margin-top: 1000px;
   }
 
   title {
@@ -409,7 +409,7 @@ slideshow
   }  
   
   nav {
-    margin-top: 0px;
+    margin-top: -5px;
     margin-right: 10px;
   }
   
