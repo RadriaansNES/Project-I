@@ -390,11 +390,11 @@ slideshow
 @media only screen and (min-device-width: 10px) and (max-width: 767px){
 
   #land, #serv {
-    scroll-margin-top: 300px;
+    scroll-padding-top: 300px;
   }
 
   #prod {
-    scroll-margin-top: 1000px;
+    scroll-padding-top: 1000px;
   }
 
   title {
@@ -409,7 +409,7 @@ slideshow
   }  
   
   nav {
-    margin-top: -5px;
+    margin-top: -8px;
     margin-right: 10px;
   }
   
