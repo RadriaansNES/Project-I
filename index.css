@@ -387,10 +387,11 @@ slideshow
 
 /* IPHONNNNNNNNNEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE */
 
-@media only screen and (min-device-width: 350px) and (max-width: 767px){
+@media only screen and (min-device-width: 10px) and (max-width: 767px){
   title {
-    font-size: 20px;
-    margin-top: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+    padding-left: 10px;
   }
 
   header {
@@ -402,21 +403,22 @@ slideshow
   }
   
   navc {
-    margin-right: 10px;
+    margin-right: 3px;
   }
 
   nav a {
-    font-size: 10px;
+    font-size: 11px;
   }
 
   #land .wstate h4 {
     font-size: 10px;
-    padding: 30px;
+    padding: 10px;
   }
 
   land {
     top: 30px;
     height: 400px;
+    width: -webkit-fill-available;
   }
 
   services {
@@ -424,25 +426,25 @@ slideshow
   }
 
   services .sblock {
-    width: 300px;
+    width: 250px;
   }
 
   .sblock .s1 img, .sblock .s2 img, .sblock .s3 img{
-    height: 150px;
-    min-width: 150px;
-    max-height: 150px;
-    max-width: 150px;
+    height: 125px;
+    min-width: 125px;
+    max-height: 125px;
+    max-width: 125px;
   }
 
   services .sblock .s1, services .sblock .s2, services .sblock .s3{
-    height: 150px;
+    height: 125px;
   }
 
   .sblock h4 {
-    font-size: 10px;
+    font-size: 9px;
     padding: 3px;
     text-align: center;
-    max-height: 150px;
+    max-height: 125px;
   }
 
   .sblock .s2 h4{
@@ -450,11 +452,11 @@ slideshow
   }
 
   services .sblock .s3 {
-    width: 400px;
+    width: 300px;
   }
 
   services .sblock .s3 h4 {
-    width: 120px;
+    width: 100px;
     padding: 3px;
     margin-left: 10px;
     text-align: center;
@@ -462,24 +464,36 @@ slideshow
 
   products {
     margin-top: 50px;
-    height: 400px;
+    height: 300px;
   }
 
   #prod h2{
-    margin-top: 30px;
+    margin-top: 10px;
   }
 
   #prod .slideshow-container img{
-    width: 250px;
-    height: 250px;
+    width: 225px;
+    height: 225px;
   }
 
+  #about{
+    width: -webkit-fill-available;
+  }
   about h2 {
-    margin-top: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
   }
 
   colwrap .row img {
     height: 150px;
-    width: 150px;
+    width: 100px;
+  }
+
+  footer {
+    padding-right: 10px;
+  }
+
+  footer h2 {
+    font-size: 10px;
   }
 }
