@@ -389,8 +389,12 @@ slideshow
 
 @media only screen and (min-device-width: 10px) and (max-width: 767px){
 
+  #land, #serv {
+    scroll-margin-top: 125px;
+  }
+
   #prod {
-    scroll-margin-top: 50px;
+    scroll-margin-top: 175px;
   }
 
   title {
